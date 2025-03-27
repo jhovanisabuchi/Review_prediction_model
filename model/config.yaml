@@ -1,0 +1,13 @@
+# config.yaml
+
+model_type: distilbert
+task: text-classification
+framework: pt  # 'pt' for PyTorch, 'tf' for TensorFlow
+tokenizer: distilbert-base-uncased
+num_labels: 2  # Binary classification (positive/negative)
+label2id:
+  0: negative
+  1: positive
+id2label:
+  0: negative
+  1: positive
