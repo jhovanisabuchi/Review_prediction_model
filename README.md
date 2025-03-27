@@ -50,5 +50,7 @@ The most relevant hyperparameters used for optimization include:
 
 This project leverages transfer learning with fine-tuning to achieve high accuracy in sentiment analysis.
 
+## Model Deployment
+The trained model has been deployed on [Hugging Face](https://huggingface.co/jhovanisabuchi/distilbert-imdb-sentiment). You can access and test the model there.
 
 
